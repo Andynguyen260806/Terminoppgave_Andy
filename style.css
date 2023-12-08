@@ -1,0 +1,220 @@
+.topnav {
+  background-color: #636363;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  margin-top: -11px;
+  margin-left: -10px;
+  margin-right: -10px;
+  z-index: 9;
+}
+
+#Logo {
+  margin-top: 3rem;
+}
+
+body {
+  background-color: #b4b4b4;
+}
+
+.Title1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: Gloucester MT ;
+}
+
+.TopNavItems {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.LogoNav {
+  margin-right: auto;
+  width: 10%; 
+  margin-left: 2rem;
+}
+
+.Strek {
+  margin-bottom: 2rem;
+  border: 2px solid #636363;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+
+.NavBtns {
+  font-size: 35px;
+  background: none;
+  border: none;
+  margin-right: 2rem;
+  font-family: Gloucester MT;
+}
+
+.NavBtns:hover {
+  color: white;
+}
+
+
+.Search {
+  border-radius: 10px;
+}
+
+.AllCards {
+  margin-top: 3rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  margin: 1%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.CardRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardA {
+  text-decoration: none;
+  color: black;
+}
+
+.Info_Box {
+  padding-top: 4%;
+  margin-left: 15%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.productImg {
+  width: 30%;
+  margin-left: 4rem;
+}
+
+.Info_tekst {
+  background-color: #d4d4d4;
+  border-radius: 30px;
+  padding: 2%;
+  font-size: 250%;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.img_box {
+  display: flex;
+  margin-right: 3rem;
+  width: 130%;
+}
+
+.CartBtn {
+  background-color: #31AC87;
+  padding: 2%;
+  margin: 30px;
+  color: azure;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.CartBtn:hover {
+  background-color: #66d69e;
+}
+
+.ItemName {
+  margin-left: 11rem;
+  margin-top: 2rem;
+}
+
+/*div rundt tekst og bilde*/
+.kurv {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  font-size: 30px;
+  padding: 15px;
+}
+
+/*Div for cart id*/
+#kurvWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* id for sidene til kurv interface og for å vise produkter*/
+#cart {
+  flex-basis: 60%;
+  margin-top: 2rem;
+}
+
+.kurvbilde{
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.cartBtn{
+  margin-top: 2rem;
+  padding: 30px;
+  background-color: white;
+  font-size: 30px;
+  width: 50%;
+}
+
+.cartBtnWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.EmptyCarBtn{
+  background-color: #BF0A30;
+  padding: 2%;
+  margin: 30px;
+  color: azure;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.EmptyCarBtn:hover{
+background-color: #8D021F;
+}
+
+.CheckOutBtn{
+  background-color: green;
+  padding: 2%;
+  margin: 30px;
+  color: azure;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.CheckOutBtn:hover{
+  background-color: darkgreen;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productsite</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script defer src="Script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body onload="ShowCart()">
+
+  <!-- Nav bar på toppen av siden der man kan søke opp producter eller så på handlekurv-->
+  <div class="topnav">
+    <div class="TopNavItems">
+      <img src="Bilder/SmartHomeLogo.png" class="LogoNav">
+      <a href="home.html">
+        <button class="NavBtns"> Home <ion-icon name="home-outline"></ion-icon></ion-icon></button>
+      </a>
+      <a href="Handlekurv.html">
+        <button class="NavBtns"> Cart <ion-icon name="cart-outline"></ion-icon></button>
+      </a>
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content"
+          class="Search">
+      </form>
+    </div>
+  </div>
+
+  <div id="kurvWrapper">
+    <div id="cart"></div>
+  </div>
+
+  
+  <div class="cartBtnWrapper">
+    <div class="cartBtn">
+      <button onclick="EmptyCart()"class="EmptyCarBtn">Empty Cart</button>
+      <button class="CheckOutBtn">Check Out</button>
+    </div>
+  </div>
+
+  
+</body>
+
+</html>
